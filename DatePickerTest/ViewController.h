@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UIDatePicker *datePicker;
+}
+
+
+@property (weak, nonatomic) IBOutlet UITextField *dateTextField;
 
 
 @end
